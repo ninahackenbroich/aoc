@@ -29,17 +29,3 @@ bags.each_slice(3) do |str|
 end
 
 p sum
-
-# positions = [0, 0, 0]
-
-
-# elf_foods.each do |elf_food|
-#   cals = elf_food.split(" ").map(&:to_i).sum
-#   3.times do |index|
-#     if cals > positions[index]
-#       positions.insert(index, cals)
-#       positions.pop
-#       break
-#     end
-#   end
-# end

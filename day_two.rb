@@ -1,21 +1,3 @@
-# require 'pry'
-# file = File.open("input.txt")
-# max_cals = 0
-# elf_foods = file.read.gsub("\n", " ").split("  ")
-
-# positions = [0, 0, 0]
-
-
-# elf_foods.each do |elf_food|
-#   cals = elf_food.split(" ").map(&:to_i).sum
-#   3.times do |index|
-#     if cals > positions[index]
-#       positions.insert(index, cals)
-#       positions.pop
-#       break
-#     end
-#   end
-# end
 
 # (1 for Rock, 2 for Paper, and 3 for Scissors) plus the score for the outcome of the round (0 if you lost, 3 if the round was a draw, and 6 if you won)
 CHOICES = {
